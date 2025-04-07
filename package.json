@@ -1,0 +1,27 @@
+{
+  "name": "nival-v2",
+  "version": "2.5.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r dotenv/config index.js",
+    "dev": "nodemon -r dotenv/config index.js"
+  },
+  "author": "qrlmza",
+  "license": "MIT",
+  "description": "Nival est un bot Discord développé avec l'api discord.js V14",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "bcryptjs": "^2.4.3",
+    "compromise": "^14.14.4",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "fast-levenshtein": "^3.0.0",
+    "mysql2": "^3.11.3",
+    "natural": "^8.0.1",
+    "node-fetch": "2.7.0",
+    "node-vibrant": "^4.0.3",
+    "nodemon": "^3.1.7",
+    "sharp": "^0.33.5",
+    "string-similarity": "^4.0.4"
+  }
+}
